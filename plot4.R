@@ -28,7 +28,7 @@ plot(datetime, df$Voltage, type = 'l', ylab = 'Voltage');
 plot(datetime, df$Sub_metering_1, type = 'l', ylab = 'Energy sub metering', xlab='');
 lines(datetime, df$Sub_metering_2, col = 'red');
 lines(datetime, df$Sub_metering_3, col = 'blue');
-legend("topright", col = c('black', 'blue', 'red'), legend = c('Sub_metering_1', 'Sub_metering_2', 'Sub_metering_3'), lty = 1, box.col = bg);
+legend("topright", col = c('black', 'blue', 'red'), legend = c('Sub_metering_1', 'Sub_metering_2', 'Sub_metering_3'), lty = 1, cex = 0.5);
 
 plot(datetime, df$Global_reactive_power, type = 'l', ylab = 'Global_reactive_power');
 
